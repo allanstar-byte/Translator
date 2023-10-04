@@ -1,17 +1,18 @@
-import React from 'react';
+// 1) Import React and ReactDOM libraries
+
+// react defines what a React component is and how multiple
+//  components work together.c
+
+
+// ReactDOM is a library that knows what to show up in the browser
+
+import React from 'react'; 
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+//  2) Get a reference to the root element
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// 3) Tell react to take control of the element
+
+//  4) Create a component
+
+// 5) Show the component on the screen

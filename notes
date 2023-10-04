@@ -1,0 +1,4 @@
+Babel - Tool to turn JSX into normal JS code
+
+Webpack - Tool to merge all project files into a single file to give bundle.js file.
+
